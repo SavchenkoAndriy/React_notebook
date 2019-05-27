@@ -1,0 +1,72 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Andriy",
+      "password": "12345678",
+      "post": [
+        {
+          "id": 1,
+          "title": "Welcome",
+          "text": "Its your first post"
+        },
+        {
+          "id": 2,
+          "title": "first",
+          "text": "Some text for first"
+        },
+        {
+          "id": 3,
+          "title": "two",
+          "text": "Some text for two"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Masha",
+      "password": "qwerty",
+      "post": [
+        {
+          "id": 1,
+          "title": "Welcome",
+          "text": "Its your first post"
+        }
+      ]
+    },
+    {
+      "name": "Admin",
+      "password": "Admin",
+      "id": 3,
+      "post": [
+        {
+          "id": 1,
+          "title": "Welcome",
+          "text": "Its your first post"
+        }
+      ]
+    },
+    {
+      "name": "1",
+      "password": "1",
+      "id": 4,
+      "post": [
+        {
+          "id": 1,
+          "title": "Welcome",
+          "text": "Its your first post"
+        },
+        {
+          "id": 2,
+          "title": "first",
+          "text": "Some text for first"
+        },
+        {
+          "title": "second",
+          "text": " second post",
+          "id": 3
+        }
+      ]
+    }
+  ]
+}
