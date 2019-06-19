@@ -1,12 +1,8 @@
 import React from 'react';
-
 import './sass/login.sass';
 
 
-
-
 class Login extends React.Component{
-
 
     render (){
         return (
@@ -14,7 +10,7 @@ class Login extends React.Component{
                 {this.props.goLogin &&
                     <div className={'container_log'}>
                         <div className={'login__wrap'}>
-                            <form className={'login__form'} onSubmit={this.props.nameMethod}>
+                            <form className={'login__form'} onSubmit={this.props.login}>
                                 <div className={'header'}>
                                     <p>Страница логинизацыи</p>
                                 </div>
@@ -29,7 +25,7 @@ class Login extends React.Component{
                             </form>
                             <div className={'button__wrap'}>
                                 <p>Нет аккаунта?</p>
-                                <button className={'go__regg'} onClick={this.props.gogoReg}>Зарегестрироватся </button>
+                                <button className={'go__regg'} onClick={this.props.goRegistration}>Зарегестрироватся </button>
                             </div>
                         </div>
                     </div>
@@ -38,6 +34,5 @@ class Login extends React.Component{
         );
     }
 }
-
 
 export default Login;
